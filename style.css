@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+}
 /* Estilização do corpo da página*/
 body {
     background-color: #f4f4f4;
@@ -13,62 +13,61 @@ body {
     height: 100vh;
 }
 
-/* Container principal (caixa de formulario) */
-.Container {
+/* Container principal (caixa de formulário)*/
+.container {
 background-color: white;
-padding:2rem;
+padding: 2rem;
 border-radius: 8px;
-box-shadow:0 0 10px  rgba(0, 0, 0, 0.1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*Título*/
 h2 {
-text-align: center;
-margin-bottom: 1.5rem;
-color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
 }
 
 /*Espaço entre os campos do formulário*/
 .input-group {
- margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 label {
-display: block;
-margin-bottom: 0.3rem;
-color: #333;
+    display: block;
+    margin-bottom: 0.3rem;
+    color:#3333;    
 }
 /*Campos de digitação*/
 input{
-width: 100%;
-padding: 0.5rem;
-border: 1px solid #css;
-border-radius: 4px;
-font-size: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 
-*Botões*
+/*Botões*/
 
 button {
-widht: 100%;
-padding: 0.7 rem;
-background-color:  #007bff;
-color: white;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-transition: background 0.3 ;
+    width: 100%;
+    padding: 0.7 rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3;    
 }
 
- *Efeito do mouse*
-button: hover{
-background-color: #0056b3;
+/*Efeito do mouse*/
+button: hover {
+    background-color: #0056b3;
 }
-*Mensagem de erro*
+/*Mensagem de erro*/
 #message {
-text-align
-margin-top: 1rem;
-color: red;
-font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
 }
-
